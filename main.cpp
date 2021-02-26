@@ -5,9 +5,12 @@
  * */
 
 #include <iostream>
+#include "ui_operations.h"
 
 int main(int argc, char const *argv[])
 {
-    /* code */
+
+    insertContact();
+    
     return 0;
 }
