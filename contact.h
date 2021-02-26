@@ -6,6 +6,7 @@
 class contact
 {
 private:
+    int contactID;
     std::string firstname;
     std::string lastname;
     std::string phone1;
