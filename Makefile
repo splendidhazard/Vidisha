@@ -10,4 +10,4 @@ vidisha: main.o contact.o ui_insert.o
 	$(CC) $(CFLAGS) $^ -o $@.app
 
 clean:
-	rm -r *.o *.gch 
+	rm -f *.o *.gch *.app
